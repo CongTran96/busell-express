@@ -1,0 +1,15 @@
+extends layout
+
+block sub-css
+  link(rel='stylesheet', href='/stylesheets/error.css')
+
+block scripts
+  script(src='/javascripts/error.js')
+
+block content
+  .error-page
+    div
+      h1(data-h1="404") 404
+      p(data-p="NOT FOUND") NOT FOUND
+
+  #particles-js

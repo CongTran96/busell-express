@@ -1,0 +1,9 @@
+CHANGE STORE DATA PATH MONGODB:
+  
+1. open mongodb_configuration file (C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg)
+2. change storage.dbPath
+
+CHANGE LOG PATH MONGODB:
+
+1. open mongodb_configuration file (C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg)
+2. change systemLog.path

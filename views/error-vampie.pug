@@ -1,0 +1,24 @@
+extends layout
+
+block sub-css
+  link(rel='stylesheet', href='/stylesheets/error-vampie.css')
+
+block content
+  .container
+    .error
+      p(class="p") 4
+      span(class="dracula")
+        .con
+          .hair
+          .hair-r
+          .head
+          .eye
+          div(class="eye eye-r")
+          .mouth
+          .blod
+          div(class="blod blod2")
+      p(class="p") 4
+
+      .page-ms
+        p(class="page-msg") Oops, the page you're looking for Disappeared
+        button(class="go-back") Go Back

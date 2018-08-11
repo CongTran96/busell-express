@@ -1,0 +1,29 @@
+sorfware:
+    check OS info:
+    systeminfo | findstr /B /C:"OS" /C:"OS version" /C:"OS type"
+
+    Cong'PC OS:
+    OS - OS version - OS type
+    Microsoft Windows 10 Education - 10.0.17134 N/A Build 17134 - x64-based PC
+
+Requirement:
+    Windows 2012 Server and Windows 10 need KB2999226 to provide Universal C Runtime support for Windows.
+
+
+NOTE:
+    MongoDB 3.6, MongoDB binaries, mongod and mongos, bind to localhost by default
+
+    MongoDB 2.6 - 3.4 only MongoDB RPM (Red Hat, CentOS, Fedora Linux, and derivatives)
+                        + DEB (Debian, Ubuntu, and derivatives) bind to localhost by default
+
+
+WARNING: Do not expose mongod.exe to a public network without configuring authentication. MongoDB is designed to be run in trusted environments
+
+CONFIGURATION FILE:
+ Files\MongoDB\Server\4.0\bin\mongod.cfg.
+
+ Data directory, which corresponds to the --dbpath. eg. C://data/db
+ Log directory, which corresponds to the --logpath. eg. C://data/log
+
+
+

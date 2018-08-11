@@ -1,0 +1,41 @@
+INSTALL STEP:
+
+1. DOWNLOAD IN https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.1-signed.msi/downloadA
+
+2. Open file
+
+3. Click Next -> check "I..." -> Next -> click custom -> Next -> Next -> Next -> Install
+
+4. waiting, and click yes
+
+5. waiting for 30 minutes or more...
+
+6. Click next all time When MongoDB Compass run OR CLOSE THIS
+
+7. Click finish
+
+**NOTE: after install, mongodb service run by default
+
+
+MONGO INFO:
+
+- default  
+     host:port  127.0.0.1:27017
+
+START MONG
+
+	cmd: net start MongoDB
+
+STOP MONGO:
+
+	cmd: net stop MongoDB
+
+CONNECT MONGODB:
+
+1. Click windows icon
+2. type Mongodb compass
+3. Open
+4. type host and post
+5. Click connect
+6. show db and collection in top left.
+7. self research...
