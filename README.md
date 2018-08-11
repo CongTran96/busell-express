@@ -46,6 +46,13 @@ Open [guide install mongodb](https://github.com/CongTran96/busell-express-test/b
 
 Recommend use POSTMEN to get,post,...
 
+* import sample users data by
+
+```
+    GET
+    url: localhost:3000/import-data
+```
+
 * register user
 
 ```
